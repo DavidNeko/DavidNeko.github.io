@@ -8,14 +8,14 @@
     <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <meta name="description" content="如何使用Hugo在GitHub上搭建博客，并使用脚本一键部署">
+    <meta name="description" content="《软技能 代码之外的生存指南》1-5章读书笔记">
     
     <meta name="keyword"  content="DavidWang, Daveedo, 王大卫的博客， 网络博客，学习笔记">
     <link rel="shortcut icon" href="https://davidneko.github.io/img/favicon.ico">
 
-    <title>Hosting Hugo on Github-Dav的博客 | Dav&#39;s Blog</title>
+    <title>Reading note - Soft skills - 01-Dav的博客 | Dav&#39;s Blog</title>
 
-    <link rel="canonical" href="https://davidneko.github.io/post/post_0001/">
+    <link rel="canonical" href="https://davidneko.github.io/post/post_0002/">
 
     <link rel="stylesheet" href="https://davidneko.github.io/css/iDisqus.min.css"/>
 	
@@ -129,24 +129,24 @@
                 <div class="post-heading">
                     <div class="tags">
                        
-                       <a class="tag" href="/tags/hugo" title="Hugo">
-                           Hugo
+                       <a class="tag" href="/tags/readingnote" title="ReadingNote">
+                           ReadingNote
                         </a>
                         
-                       <a class="tag" href="/tags/github" title="Github">
-                           Github
+                       <a class="tag" href="/tags/softskills" title="SoftSkills">
+                           SoftSkills
                         </a>
                         
-                       <a class="tag" href="/tags/blog" title="Blog">
-                           Blog
+                       <a class="tag" href="/tags/books" title="Books">
+                           Books
                         </a>
                         
                     </div>
-                    <h1>Hosting Hugo on Github</h1>
-                    <h2 class="subheading">使用Hugo在Github上搭建个人博客</h2>
-                    <span  class="meta">Posted by      &#34;Daveedo&#34; on Friday, October 19, 2018
+                    <h1>Reading note - Soft skills - 01</h1>
+                    <h2 class="subheading">软技能 代码之外的生存指南读书笔记01</h2>
+                    <span  class="meta">Posted by      &#34;Daveedo&#34; on Wednesday, October 31, 2018
                         
-                        <span id="/post/post_0001/" class="leancloud_visitors meta_data_item" data-flag-title="">
+                        <span id="/post/post_0002/" class="leancloud_visitors meta_data_item" data-flag-title="">
     <span class="post-meta-item-icon">
       <span class="octicon octicon-eye"></span> 
     </span>
@@ -304,124 +304,83 @@ $(function() {
         		
         		
 
-<!-- Contents -->
+<h2 id="第一篇-职业">第一篇 职业</h2>
 
-<h2 id="前期准备">前期准备</h2>
+<h3 id="拥有商业心态">拥有商业心态</h3>
 
-<p>要在Github上部署静态博客，首先需要准备好：</p>
+<p>把自己的软件开发事业/职业生涯当作一桩生意来对待。拥有这种心态对管理职业规划很重要，不要让自己的工作角色固化了自己的职业生涯，要把自己当成由自己独立运营的企业，把自己的雇主当作自己的客户。这样来看待雇佣关系会让人把自己所处的被动领工资地位转换成一个自我治理和自我引导的主动地位。</p>
+
+<h3 id="像企业一样思考">像企业一样思考</h3>
 
 <ul>
-<li><p>Github账号</p>
+<li><p>自己（作为一个“企业”）能够提供的服务是什么？</p>
 
 <ul>
-<li><a href="https://github.com/join">Github免费注册</a>
+<li>大多数人的答案是创建软件。
 <br /></li>
 </ul></li>
 
-<li><p>在本地开发环境安装Hugo并准备好要发布的网页</p>
+<li><p>做一个默默无闻的程序员，还是？</p>
 
 <ul>
-<li><p><a href="https://gohugo.io/getting-started/installing">Hugo安装指南</a></p></li>
-
-<li><p><a href="https://gohugo.io/getting-started/quick-start/">Hugo Quick Start: Create a Hugo site using the beautiful Ananke theme</a></p></li>
-</ul></li>
-
-<li><p>在本地开发环境安装 Git 2.8 或更高版本</p>
-
-<ul>
-<li><a href="https://git-scm.com/downloads">Git下载</a></li>
+<li>专注于自己现在所能提供的服务，以及如何营销这项服务</li>
+<li>想办法提升服务</li>
+<li>思考自己可以专注为哪种特定类型的客户/行业提供特定服务</li>
+<li>集中精力成为某一特定领域的专家
+<br /></li>
 </ul></li>
 </ul>
 
-<h2 id="github-页面种类">Github 页面种类</h2>
-
-<p>有两种Github页面可供选择：</p>
+<h4 id="关键的问题">关键的问题：</h4>
 
 <ul>
-<li><p>个人/组织页面</p>
+<li><p>吸引客户的最佳方法是什么？</p></li>
 
-<p>(<code>https://&lt;USERNAME|ORGANIZATION&gt;.github.io/</code>)</p></li>
-
-<li><p>项目页面</p>
-
-<p>(<code>https://&lt;USERNAME|ORGANIZATION&gt;.github.io/&lt;PROJECT&gt;/</code>)</p></li>
+<li><p>如何将服务告知客户？</p></li>
 </ul>
 
-<p>参考<a href="https://help.github.com/articles/user-organization-and-project-pages/#user--organization-pages">Github页面文档</a>以便决定你将要部署的页面类型，这里选择比较简单的个人组织页面类型作为示例</p>
+<h3 id="思考未来-定位自己的目标">思考未来，定位自己的目标</h3>
 
-<h2 id="个人-组织页面建立的分步教学">个人/组织页面建立的分步教学</h2>
-
-<p>首先，个人/组织页面和项目页面的差别是：</p>
-
-<ol>
-<li><p>必须用<code>&lt;USERNAME&gt;.github.io</code>来托管你用Hugo生成的内容</p></li>
-
-<li><p>在<code>master</code>分支下的内容会被公开发布到你的Github主页上</p></li>
-</ol>
-
-<h3 id="分步教学">分步教学</h3>
-
-<ol>
-<li><p>在Github上建立一个<code>&lt;YOUR-PROJECT&gt;</code>项目分支(例如，blog)，这个分支会包含你的Hugo页面内容以及其他源文件</p></li>
-
-<li><p>在Github上建立一个<code>&lt;USERNAME&gt;.github.io</code>，替换<code>&lt;USERNAME&gt;</code>为你的Github用户名。这个分支会包含你的Hugo页面的渲染版本。</p></li>
-
-<li><p>在本地终端执行<code>git clone &lt;YOUR-PROJECT-URL&gt; &amp;&amp; cd &lt;YOUR-PROJECT&gt;</code> ，克隆你在步骤1里建立的项目</p></li>
-
-<li><p>确保网站在本地可以运行，在本地终端执行<code>hugo server</code>或<code>hugo server -t &lt;YOURTHEME&gt;</code>后用浏览器打开<a href="http://localhost:1313">http://localhost:1313</a></p></li>
-
-<li><p>确保网站内容可以发布后</p>
+<p>开始把自己的软件开发职业当成商业活动的话，需要定义一个业务目标。</p>
 
 <ul>
-<li><p>按<code>CTRL+C</code>来终止服务器</p></li>
+<li><p>有关制定目标，如果发现制定一个很具体的目标很难，不妨先制定一个远期大目标。</p>
 
-<li><p>执行<code>rm -rf public</code>移除<code>public</code>文件夹下全部内容（没有则可忽略）</p></li>
+<ul>
+<li><p>这个大目标不一定要具体，它只要能够具体到给你提供清晰的方向即可
+你需要知道自己在努力的过程中，是在向目标前进还是离目标越来越远。</p></li>
+
+<li><p>你希望从你的职业生涯中收获什么？</p></li>
+
+<li><p>你希望自己5年后或者10年后在哪里？</p></li>
 </ul></li>
 
-<li><p>执行<code>git submodule add -b master git@github.com:&lt;USERNAME&gt;/&lt;USERNAME&gt;.github.io.git public</code> 创建git <a href="https://blog.github.com/2016-02-01-working-with-submodules/">子模块</a>。现在当你再执行<code>hugo</code>命令来部署网站到&rsquo;public&rsquo;时，建立的<code>public</code>目录则会在一个不同的Github分支下运作。</p></li>
-</ol>
+<li><p>大目标制定后，则需要设定时限路线，也就是通往大目标的小目标。</p>
 
-<h3 id="建立一键发布的脚本">建立一键发布的脚本</h3>
+<ul>
+<li><p>这里可以用一下逆向思维：</p>
 
-<p>现在，部署页面已经基本完成，你可以建立一个<code>deploy.sh</code>脚本来帮助你快速发布页面在Github上，使用<code>chmod +x deploy.sh</code>来确保脚本可运行。</p>
+<ul>
+<li>如果已经到达了大目标，那么沿途都经历了哪些里程碑</li>
+<li>能想象出哪些路径可以让你从大目标反推到你现在的情况
+<br /></li>
+</ul></li>
 
-<p>下面是脚本<code>deploy.sh</code>的内容：</p>
+<li><p>小目标可以分成更小的目标，月目标-&gt;周目标-&gt;日目标</p></li>
+</ul></li>
 
-<pre><code>#!/bin/bash
+<li><p>时刻用大目标来提醒自己</p></li>
+</ul>
 
-echo -e &quot;\033[0;32mDeploying updates to GitHub...\033[0m&quot;
+<h3 id="人际交往能力很重要">人际交往能力很重要</h3>
 
-# Build the project.
-hugo # if using a theme, replace with `hugo -t &lt;YOURTHEME&gt;`
+<ul>
+<li>To be continued&hellip;</li>
+</ul>
 
-# Go To Public folder
-cd public
-# Add changes to git.
-git add .
+<hr />
 
-# Commit changes.
-msg=&quot;rebuilding site `date`&quot;
-if [ $# -eq 1 ]
-  then msg=&quot;$1&quot;
-fi
-git commit -m &quot;$msg&quot;
-
-# Push source and build repos.
-git push origin master
-
-# Come Back up to the Project Root
-cd ..
-</code></pre>
-
-<p>你可以执行<code>./deploy.sh &quot;你的commit内容&quot;</code>来将页面更改发布到<code>&lt;USERNAME&gt;.github.io</code>, 注意这里也要将更改commit到步骤1里建立的<code>&lt;YOUR-PROJECT&gt;</code>项目分支中。</p>
-
-<h3 id="大功告成">大功告成</h3>
-
-<p>现在如果你打开<code>https://&lt;USERNAME&gt;.github.io</code>，则会发现你的页面已经成功部署！</p>
-
-<h2 id="本文参考链接">本文参考链接</h2>
-
-<p><a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Hugo官方教学：如何将页面部署到Github上</a></p>
+<p>如果需要《软技能 代码之外的生存指南》的中英文PDF请留言，我可以把它分享到你的邮箱。</p>
 
         
                 
@@ -429,10 +388,10 @@ cd ..
               <hr>
               <ul class="pager">
                   
-                  <li class="previous">
-                      <a href="/post/post_0002/" data-toggle="tooltip" data-placement="top" title="Reading note - Soft skills - 01">&larr; Previous Post</a>
-                  </li>
                   
+                  <li class="next">
+                      <a href="/post/post_0001/" data-toggle="tooltip" data-placement="top" title="Hosting Hugo on Github">Next Post &rarr;</a>
+                  </li>
                   
               </ul>
   
